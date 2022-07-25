@@ -1,5 +1,4 @@
 import { useRef, useState, useEffect } from "react";
-import Modal from "react-modal";
 import "./App.css";
 import { Players } from "./interfaces";
 import {

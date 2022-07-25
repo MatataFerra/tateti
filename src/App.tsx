@@ -33,7 +33,7 @@ function App() {
       score: 0,
       color: "red",
       symbol: "X",
-      isPlaying: false,
+      isPlaying: true,
       winner: false,
     },
     player2: {
@@ -41,7 +41,7 @@ function App() {
       score: 0,
       color: "blue",
       symbol: "O",
-      isPlaying: true,
+      isPlaying: false,
       winner: false,
     },
   });

@@ -85,6 +85,12 @@
   border-bottom: 1px solid rgb(45, 45, 45);
 }
 
+.nav-wrapper a {
+  color: rgb(238, 238, 238);
+  text-decoration: none;
+  transition: all ease 0.2s;
+}
+
 .winner {
   display: flex;
   position: absolute;
@@ -98,6 +104,26 @@
 }
 
 .winner h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(45, 45, 45);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.draw {
+  display: flex;
+  position: absolute;
+  inset: 0;
+  background-color: rgba(97, 218, 255, 0.569);
+  height: 13%;
+  padding: 0 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.draw h1 {
   font-size: 2rem;
   font-weight: bold;
   color: rgb(45, 45, 45);
